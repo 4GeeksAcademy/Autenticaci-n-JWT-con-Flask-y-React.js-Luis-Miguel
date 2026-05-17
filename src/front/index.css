@@ -1,0 +1,130 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.auth-card {
+    max-width: 340px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.auth-card h2 {
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.auth-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+}
+
+.auth-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-footer {
+    margin-top: 25px;
+}
+
+.auth-footer p {
+    margin-bottom: 5px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.private-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f7f6;
+    height: 100vh;
+    padding: 20px;
+}
+
+.private-welcome-card {
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    text-align: center;
+    border: 1px solid #e1e8e5;
+    margin: auto;
+}
+
+.welcome-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+.celebration-emoji-container {
+    margin-bottom: 25px;
+    background-color: transparent; 
+}
+
+.celebration-emoji {
+    font-size: 80px;
+    display: inline-block;
+    padding: 15px;
+    background-color: #f4f7f6;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.welcome-message-area {
+    margin-bottom: 35px;
+    color: #34495e;
+}
+
+.message-highlight {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #27ae60;
+    margin-bottom: 10px;
+}
+
+.message-subtext {
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.logout-action-area {
+    margin-top: 20px;
+}
+
+.logout-btn {
+    padding: 10px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 30px;
+}
